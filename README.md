@@ -1,6 +1,8 @@
 ## Installation ##
 First install torch and cuda
-```conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia```
+```
+conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
+```
 
 Then install both torchcluster and torchscatter
 ```pip install torch-scatter -f https://data.pyg.org/whl/torch-1.13.0+cu117.html```
