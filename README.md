@@ -28,5 +28,5 @@ python script/run.py -c config/fb15k237-train.yaml --gpus [0]
 
 ## Datasets
 * The original BetaE datasets are automatically downloaded when you run the code.
-* Unanchored and cyclic queries will be provided
+* Unanchored and cyclic queries are available in this [link](https://drive.google.com/drive/folders/1fmXzBzIDQpgFfW1KqpR5_b62Hrs_KZYG?usp=sharing)
 * In order to run/train with our queries, you must either replace the corresponding files in the kg-dataset folder, or create a new folder inside kg-dataset. For example: your-path/kg-datasets/cyclic-queries/N-betae/ where N can be FB15k-237, FB15k, or NELL. Remember to adjust the config files (.yaml) with this new path
