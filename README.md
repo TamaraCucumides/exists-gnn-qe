@@ -28,6 +28,5 @@ python script/run.py -c config/fb15k237-train.yaml --gpus [0]
 
 ## Datasets
 * The original BetaE datasets are automatically downloaded when you run the code.
-* We provide unanchored queries in this link.
-* Test set of cyclic queries and unravelings are in the following link. Triangles come with 3 and 4 unravelings, labeled under id 3pi and 4pi. Squares are labeled respectively with labels 6pi and 8pi.
+* Unanchored and cyclic queries will be provided
 * In order to run/train with our queries, you must either replace the corresponding files in the kg-dataset folder, or create a new folder inside kg-dataset. For example: your-path/kg-datasets/cyclic-queries/N-betae/ where N can be FB15k-237, FB15k, or NELL. Remember to adjust the config files (.yaml) with this new path
